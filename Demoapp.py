@@ -4,7 +4,7 @@ import random
 
 # ========== CONFIG ==========
 # Configure Gemini (replace with your actual API key)
-genai.configure(api_key="AIzaSyCGvWUmJhRiQfmQOS-dfiREkWryqdudkE8")
+genai.configure(api_key="Your API Key")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Valid credentials
@@ -144,3 +144,4 @@ else:
 
                 # Placeholder image
                 st.image("https://i.ibb.co/6b9tL0W/recipe-placeholder.jpg", caption="Your Dish (illustrative) 🍽️", use_container_width=True)
+
